@@ -1,0 +1,69 @@
+.banner{
+color:aqua;
+object-fit: contain;
+height:448px;
+
+
+}
+.bannercont{
+    /* position:absolute; */
+    margin-left: 30px;
+    /* margin-top: 140px; */
+    padding-top: 140px;
+    height:190px;
+
+}
+
+.title
+{   color: aqua;
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 4px #FF0000;
+
+}
+.mov_desc{
+    width : 45 rem;
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size:0.8rem;
+    max-width: 360px;
+    height: 80px;
+}
+.banner_butt{
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    padding-top:0.5rem;
+    background-color: rgba(151, 99, 99, 0.863);
+    padding-bottom: 0.5rem;
+    object-fit: contain;
+
+}
+.banner_butt:hover{
+    color: #000;
+    background-color: #e6e6e6;
+    transition: all 0.2s;
+}
+ .fade_bottom{
+    height:7.4rem;
+    background-image: linear-gradient(
+        180deg,
+        transparent,
+        rgba(0, 0, 0, 0.61),
+        #111
+        
+    );
+} 
+.test
+{
+    color: red;
+    
+}
